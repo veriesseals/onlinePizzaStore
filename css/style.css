@@ -6,11 +6,29 @@
 /* ------------------------------------------ */
 /* Header */
 
+#header-sect{
+    background-color: #ff521c;
+}
+
+#vinnies-name{
+    color: #f2f3ad;
+    margin-top: 5%;
+    font-family: 'Oswald', sans-serif;
+}
+
+#pizza-logo img{
+    width: 20%;
+    /* margin-left: 70%; */
+    
+}
 
 
 /* ------------------------------------------ */
 /* Section 1 */
 
+#sect-01-cont-opt div, h2{
+    font-family: 'Oswald', sans-serif;
+}
 
 /* ------------------------------------------ */
 /* Section 2 */
