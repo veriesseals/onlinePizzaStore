@@ -1,0 +1,41 @@
+* {
+    border: 1px dotted red;
+}
+
+
+/* ------------------------------------------ */
+/* Header */
+
+
+
+/* ------------------------------------------ */
+/* Section 1 */
+
+
+/* ------------------------------------------ */
+/* Section 2 */
+
+#card-list-top ul, li{
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#card-list-top h5{
+    text-align: center;
+}
+
+.card-body div {
+    text-align: center;
+}
+
+#card-list-bottom ol, li{
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#card-list-bottom h5{
+    text-align: center;
+}
+
+/* ------------------------------------------ */
+/* Section 3 */
