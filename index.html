@@ -165,33 +165,61 @@
         <!-- Pizza Order Form -->
 
         <section class="section5">
-            <div class="container">
+            <div id="sect-05-cont" class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <form>
                             <!-- Pizza Type -->
-                            <div class="mb-3">
-                              <label for="sampleOrderSelection1" class="form-label">Please select your Specialty Pizza:</label>
-                              <select id="pizza-form" name="pizza-type">
-                                <option value="small"></option>
-                                <option value="pepperoni">Pepperoni $13.99</option>
-                                <option value="cheese">Cheese $9.99</option>
-                                <option value="buffalo-chicken">Buffalo Chicken $15.99</option>
-                                <option value="hawaiin-chicken">Hawaiian Chicken $15.99</option>
-                              </select>
+                            <div class="col-md-10 d-flex justify-content-md-between">
+
+                                <label for="sampleOrderSelection1" class="form-label">Please select your Specialty Pizza:</label>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Pepperoni $13.99</label>
+                                </div>
+
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Cheese $9.99</label>
+                                </div>
+
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Buffalo Chicken $15.99</label>
+                                </div>
+
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Hawaiian Chicken $15.99</label>
+                                </div>
                             </div>
+                            <!-- Pizza Type End -->
 
                             <!-- Pizza Sides -->
-                            <div class="mb-3">
-                                <label for="sampleOrderSelection2" class="form-label">Please Select your Sides:</label>
-                                <select id="pizza-form" name="pizza-sides">
-                                <option value="small"></option>
-                                  <option value="pepperoni">Bread Sticks $5.99</option>
-                                  <option value="cheese">Cheese Sticks $6.99</option>
-                                  <option value="buffalo-chicken">Cinnamon Sticks $7.99</option>
-                                  <option value="hawaiin-chicken">Fries $4.99</option>
-                                </select>
-                              </div>
+                            <div class="col-md-10 d-flex justify-content-md-between">
+
+                                <label for="sampleOrderSelection1" class="form-label">Please select your Side Orders:</label>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Bread Sticks $5.99</label>
+                                </div>
+
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Cheese Sticks $6.99</label>
+                                </div>
+
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Cinnamon Sticks $7.99</label>
+                                </div>
+
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Fries $4.99</label>
+                                </div>
+                            </div>
+                            <!-- Pizza Sides End -->
 
                             <!-- Pizza Size -->
                             <section class="section5a">
@@ -332,38 +360,36 @@
                                     <div class="row">
                                         <form>
                                             <div class="mb-3">
-                                              <label for="exampleInputEmail1" class="form-label">Email address:</label>
-                                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                              <label for="exampleInputEmail" class="form-label">Email address:</label>
+                                              <input type="email" class="form-control" id="exampleInputEmail" placeholder="Give us your email" aria-describedby="emailHelp">
                                               <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                                             </div>
 
                                             <div class="mb-3">
-                                                <label for="exampleInputEmail1" class="form-label"> Address:</label>
-                                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                                <label for="exampleInputAddress" class="form-label"> Address:</label>
+                                                <input type="text" class="form-control" id="exampleInputAddress" placeholder="What's your Address?" aria-describedby="emailHelp">
+                                                <div id="addressHelp" class="form-text">We'll never share your address with anyone else.</div>
                                               </div>
 
                                               <div class="mb-3">
-                                                <label for="exampleInputEmail1" class="form-label">Phone Number:</label>
-                                                <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                                <label for="exampleInputPhone" class="form-label">Phone Number:</label>
+                                                <input type="number" class="form-control" id="exampleInputPhone" placeholder="000-000-0000" aria-describedby="phoneHelp">
+                                                <div id="emailHelp" class="form-text">We'll never share your phone number with anyone else.</div>
                                               </div>
                                             <div class="mb-3">
-                                              <label for="exampleInputPassword1" class="form-label">Password</label>
-                                              <input type="password" class="form-control" id="exampleInputPassword1">
+                                              <label for="exampleInputPassword" class="form-label">Password</label>
+                                              <input type="password" class="form-control" id="exampleInputPassword">
                                             </div>
-                                            <div class="mb-3 form-check">
-                                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                              <label class="form-check-label" for="exampleCheck1">Check Out</label>
+                                         
                                             </div>
+                                            <!-- Submit Button -->
+                                            <button type="submit" class="btn btn-primary">Submit</button>
                                           </form>
                                     </div>
                                 </div>
                             </section>
                             
 
-                            <!-- Submit Button -->
-                            <button type="submit" class="btn btn-primary">Submit</button>
                           </form>
                     </div>
                 </div>
@@ -372,6 +398,19 @@
 
 
     </main>
+
+    <footer>
+        <div id="sect-06-cont" class="container">
+            <div class="row">
+                <div id="sect-06-cont-title" class="col-md-6 text-muted">
+                    <h1>Vinnie's Pizzeria</h1>
+                </div>
+                <div id="sect-06-cont-copyright" class="col-md-6 text-muted">
+                    <p>Copyright 2022. Vinnie's Pizzeria &copy; Site design: Veries Seals III</p>
+                </div>
+            </div>
+        </div>
+    </footer>
     
 
 
