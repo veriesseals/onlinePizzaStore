@@ -110,6 +110,8 @@
 /* Section 5 */
 
 #sect-05-cont{
+    padding-top: 30px;
+    padding-bottom: 30px;
     color: #050250;
     background-color: #f2f3ad;
 }
