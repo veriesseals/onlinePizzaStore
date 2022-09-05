@@ -19,7 +19,7 @@
         <div id="header-sect" class="container">
             <div class="row">
                 <div class="col-md-12 d-flex">
-                    <div id="vinnies-name" class="col-md-4">
+                    <div id="vinnies-name" class="col-md-3">
                         <h1>Vinnie's Pizzeria</h1>
                     </div>
                     <div id="pizza-logo" class="col-md-9">
@@ -52,17 +52,19 @@
                             <li><div class="card" style="width: 16rem;">
                                 <img src="img/pepperoni.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                  <h5 class="card-title">Pepperoni</h5>
-                                  <div>
-                                    <a href="#" class="btn btn-primary">Order Today!</a>
-                                </div>
+                                  <h5 class="card-title">Pepperoni $13.99</h5>
+                                  &nbsp;
+                                    <div>
+                                        <a href="#link" class="btn btn-primary">Order Today!</a>
+                                    </div>
                                 </div>
                               </div></li>
 
                             <li><div class="card" style="width: 16rem;">
                                 <img src="img/pizza_Cheese.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                  <h5 class="card-title">Cheese</h5>
+                                  <h5 class="card-title">Cheese $9.99</h5>
+                                  &nbsp;
                                   <div>
                                     <a href="#" class="btn btn-primary">Order Today!</a>
                                 </div>
@@ -72,7 +74,8 @@
                             <li><div class="card" style="width: 16rem;">
                                 <img src="img/pizza_Buffalo_Chicken.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                  <h5 class="card-title">Buffalo Chicken</h5>
+                                  <h5 class="card-title">Buffalo Chicken $15.99</h5>
+                                  &nbsp;
                                   <div>
                                     <a href="#" class="btn btn-primary">Order Today!</a>
                                 </div>
@@ -81,7 +84,7 @@
                             <li><div class="card" style="width: 16rem;">
                                 <img src="img/HawaiianChicken.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
+                                  <h5 class="card-title">Hawaiian Chicken $15.99</h5>
                                   <div>
                                     <a href="#" class="btn btn-primary">Order Today!</a>
                                 </div>
@@ -114,7 +117,8 @@
                             <li><div class="card" style="width: 16rem;">
                                 <img src="img/Breadsticks.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                  <h5 class="card-title">Pepperoni</h5>
+                                  <h5 class="card-title">Bread Sticks $5.99</h5>
+                                  &nbsp;
                                   <div>
                                       <a href="#" class="btn btn-primary">Order Today!</a>
                                   </div>
@@ -124,7 +128,8 @@
                             <li><div class="card" style="width: 16rem;">
                                 <img src="img/CheeseSticks_Marinara.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                  <h5 class="card-title">Cheese Sticks</h5>
+                                  <h5 class="card-title">Cheese Sticks $6.99</h5>
+                                  &nbsp;
                                   <div>
                                     <a href="#" class="btn btn-primary">Order Today!</a>
                                 </div>
@@ -134,7 +139,8 @@
                             <li><div class="card" style="width: 16rem;">
                                 <img src="img/CinnamonSticks.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                  <h5 class="card-title">Cinnamon Sticks</h5>
+                                  <h5 class="card-title">Cinnamon Sticks $7.99</h5>
+                                  &nbsp;
                                   <div>
                                     <a href="#" class="btn btn-primary">Order Today!</a>
                                 </div>
@@ -143,13 +149,222 @@
                             <li><div class="card" style="width: 16rem;">
                                 <img src="img/sides_Fries.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                  <h5 class="card-title">Fries</h5>
+                                  <h5 class="card-title">Fries $4.99</h5>
+                                  &nbsp;
                                   <div>
                                     <a href="#" class="btn btn-primary">Order Today!</a>
                                 </div>
                                 </div>
                               </div></li>
                         </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pizza Order Form -->
+
+        <section class="section5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <form>
+                            <!-- Pizza Type -->
+                            <div class="mb-3">
+                              <label for="sampleOrderSelection1" class="form-label">Please select your Specialty Pizza:</label>
+                              <select id="pizza-form" name="pizza-type">
+                                <option value="small"></option>
+                                <option value="pepperoni">Pepperoni $13.99</option>
+                                <option value="cheese">Cheese $9.99</option>
+                                <option value="buffalo-chicken">Buffalo Chicken $15.99</option>
+                                <option value="hawaiin-chicken">Hawaiian Chicken $15.99</option>
+                              </select>
+                            </div>
+
+                            <!-- Pizza Sides -->
+                            <div class="mb-3">
+                                <label for="sampleOrderSelection2" class="form-label">Please Select your Sides:</label>
+                                <select id="pizza-form" name="pizza-sides">
+                                <option value="small"></option>
+                                  <option value="pepperoni">Bread Sticks $5.99</option>
+                                  <option value="cheese">Cheese Sticks $6.99</option>
+                                  <option value="buffalo-chicken">Cinnamon Sticks $7.99</option>
+                                  <option value="hawaiin-chicken">Fries $4.99</option>
+                                </select>
+                              </div>
+
+                            <!-- Pizza Size -->
+                            <section class="section5a">
+                                <div class="mb-3">
+                                    <label for="sampleOrderSelection3" class="form-label">What size pizza would you like?</label>
+                                    <select id="pizza-form" name="pizza-size">
+                                        <option value="small"></option>
+                                        <option value="small">Small</option>
+                                        <option value="medium">Medium</option>
+                                        <option value="large">Large</option>
+                                        <option value="extra-large">Extra Large</option>
+                                    </select>
+                                </div>
+                            </section>
+
+                            <!-- Pizza Sauce -->
+                            <section class="section5ab">
+                                <div class="mb-3">
+                                    <label for="sampleOrderSelection4" class="form-label">What type of pizza sauce would you like?</label>
+                                    <select id="pizza-form" name="pizza-sauce">
+                                        <option value="small"></option>
+                                        <option value="small">Maranara</option>
+                                        <option value="medium">Creamy Alfredo Sauce</option>
+                                        <option value="large">Pesto Sauce</option>
+                                        <option value="extra-large">BBQ Sauce</option>
+                                    </select>
+                                </div>
+                            </section>
+
+                            <!-- Pizza Crust -->
+                            <section class="section5abc">
+                                <div class="mb-3">
+                                    <label for="sampleOrderSelection5" class="form-label">What type of pizza crust would you like?</label>
+                                    <select id="pizza-form" name="pizza-sauce">
+                                        <option value="small"></option>
+                                        <option value="small">Traditional</option>
+                                        <option value="medium">Garlic Butter</option>
+                                    </select>
+                                </div>
+                            </section>
+
+                            <!-- Delievery or Carry Out -->
+                            <section class="section5abcd">
+                                <div class="mb-3">
+                                    <label for="sampleOrderSelection6" class="form-label">Delivery or Carryout?</label>
+                                    <select id="pizza-form" name="pizza-sauce">
+                                        <option value="small"></option>
+                                        <option value="small">Delivery</option>
+                                        <option value="medium">Carry Out</option>
+                                    </select>
+                                </div>
+                            </section>
+
+                            <!-- Toppings -->
+                            <section class="section5t">
+                                <div id="sect-05t-cont" class="container">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <h2> Extra Toppings:</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            
+                            <!-- Check Boxes -->
+                            <section class="check-boxes">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-7 d-flex justify-content-md-between">
+
+                                            <!-- Topping Items Top -->
+                                            <div class="mb-3 form-check">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">Pepperoni</label>
+                                            </div>
+
+                                            <div class="mb-3 form-check">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">Mushroom</label>
+                                            </div>
+
+                                            <div class="mb-3 form-check">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">Extra Cheese</label>
+                                            </div>
+
+                                            <div class="mb-3 form-check">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">Sausage</label>
+                                            </div>
+
+                                            <div class="mb-3 form-check">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">Onion</label>
+                                            </div>
+                                        </div>
+
+                                        <!-- Topping Items Bottom -->
+                                        <div class="col-md-7 d-flex justify-content-md-between">
+                                            <div class="mb-3 form-check">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">Black Olives</label>
+                                            </div>
+
+                                            <div class="mb-3 form-check">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">Green Pepper</label>
+                                            </div>
+
+                                            <div class="mb-3 form-check">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">Fresh Garlic</label>
+                                            </div>
+
+                                            <div class="mb-3 form-check">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">Tomato</label>
+                                            </div>
+
+                                            <div class="mb-3 form-check">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">Fresh Basil</label>
+                                            </div>
+                                            
+                                        </div>
+
+                                        <!-- Special Instructions -->
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlTextarea1" class="form-label">Special Intructions</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                          </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section class="section-login">
+                                <div class="container">
+                                    <div class="row">
+                                        <form>
+                                            <div class="mb-3">
+                                              <label for="exampleInputEmail1" class="form-label">Email address:</label>
+                                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label for="exampleInputEmail1" class="form-label"> Address:</label>
+                                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                              </div>
+
+                                              <div class="mb-3">
+                                                <label for="exampleInputEmail1" class="form-label">Phone Number:</label>
+                                                <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                              </div>
+                                            <div class="mb-3">
+                                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                                              <input type="password" class="form-control" id="exampleInputPassword1">
+                                            </div>
+                                            <div class="mb-3 form-check">
+                                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                              <label class="form-check-label" for="exampleCheck1">Check Out</label>
+                                            </div>
+                                          </form>
+                                    </div>
+                                </div>
+                            </section>
+                            
+
+                            <!-- Submit Button -->
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
                     </div>
                 </div>
             </div>

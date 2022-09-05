@@ -30,15 +30,41 @@
     font-family: 'Oswald', sans-serif;
 }
 
+#sect-01-cont{
+    background-color: #f2f3ad;
+}
+
+#sect-01-cont h2{
+    color: #050250;
+}
+
 /* ------------------------------------------ */
 /* Section 2 */
 
-#card-list-top ul, li{
+#sect-02-cont {
+    background-color: #050250;
+}
+
+#card-list-top div {
+    background-color: #050250;
+}
+
+#card-list-top div, h5 {
+    color: #f2f3ad;
+}
+
+
+/* .card-title a .btn btn-primary {
+    background-color: #f2f3ad;
+} */
+
+
+#card-list-top ul, li {
     list-style-type: none;
     margin-right: 30px;
 }
 
-#card-list-top h5{
+#card-list-top h5 {
     text-align: center;
 }
 
@@ -46,14 +72,43 @@
     text-align: center;
 }
 
-#card-list-bottom ol, li{
+#card-list-bottom ol, li {
     list-style-type: none;
     margin-right: 30px;
 }
 
-#card-list-bottom h5{
+#card-list-bottom h5 {
     text-align: center;
 }
 
 /* ------------------------------------------ */
 /* Section 3 */
+
+#sect-03-cont div {
+    background-color: #f2f3ad;
+}
+
+
+#sect-03-cont div h2{
+    color: #050250;
+
+}
+
+
+/* ------------------------------------------ */
+/* Section 4 */
+
+#sect-04-cont {
+    background-color: #050250;
+}
+
+#card-list-bottom div {
+    background-color: #050250;
+}
+
+/* ------------------------------------------ */
+/* Section 5 */
+
+
+/* ------------------------------------------ */
+/* Section 5ab */
